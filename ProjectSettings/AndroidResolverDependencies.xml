@@ -1,0 +1,39 @@
+<dependencies>
+  <packages>
+    <package>com.android.installreferrer:installreferrer:2.1</package>
+    <package>com.appsflyer:af-android-sdk:6.9.4</package>
+    <package>com.appsflyer:unity-wrapper:6.9.4</package>
+    <package>com.google.android.gms:play-services-base:18.1.0</package>
+    <package>com.google.firebase:firebase-analytics:21.2.0</package>
+    <package>com.google.firebase:firebase-analytics-unity:10.5.0</package>
+    <package>com.google.firebase:firebase-app-unity:10.5.0</package>
+    <package>com.google.firebase:firebase-common:20.3.0</package>
+    <package>com.google.firebase:firebase-iid:21.1.0</package>
+    <package>com.google.firebase:firebase-messaging:23.1.1</package>
+    <package>com.google.firebase:firebase-messaging-unity:10.5.0</package>
+    <package>com.onesignal:OneSignal:4.6.5</package>
+  </packages>
+  <files>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/10.5.0/firebase-analytics-unity-10.5.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/10.5.0/firebase-analytics-unity-10.5.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/10.5.0/firebase-app-unity-10.5.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/10.5.0/firebase-app-unity-10.5.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/10.5.0/firebase-messaging-unity-10.5.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/10.5.0/firebase-messaging-unity-10.5.0.pom</file>
+  </files>
+  <settings>
+    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="bundleId" value="com.DefaultCompany.Prototype2" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="False" />
+  </settings>
+</dependencies>
