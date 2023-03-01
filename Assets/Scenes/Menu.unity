@@ -538,7 +538,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1227623337}
-        m_MethodName: AdjustMusicVolume
+        m_MethodName: MasterVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1571,6 +1571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 5344b0d08f7fb43479059d6b889fabc6, type: 2}
+  masterValue: 0
 --- !u!4 &1227623338
 Transform:
   m_ObjectHideFlags: 0

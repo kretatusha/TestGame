@@ -3439,6 +3439,7 @@ MonoBehaviour:
   endGameUI: {fileID: 1520683406}
   endText: {fileID: 1667943949}
   scoreManager: {fileID: 611369426}
+  audio: {fileID: 534669906}
 --- !u!114 &2013380808
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,6 +17,8 @@ public class PauseMenu : MonoBehaviour
     private TextMeshProUGUI endText;
     [SerializeField]
     private ScoreManager scoreManager;
+    [SerializeField]
+    private AudioSource audio;
 
     // Update is called once per frame
     void Update()
@@ -40,6 +42,7 @@ public class PauseMenu : MonoBehaviour
         pauseButton.SetActive(true);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        audio.Play();
     }
 
     public void Pause()
@@ -48,6 +51,7 @@ public class PauseMenu : MonoBehaviour
         pauseButton.SetActive(false);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        audio.Pause();
     }
 
     public void EndGame()
@@ -56,6 +60,7 @@ public class PauseMenu : MonoBehaviour
         pauseButton.SetActive(false);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        audio.Pause();
         if (scoreManager.score > scoreManager.highscore)
         {
             endText.text = "You are amazing\nNew highscore: " + scoreManager.score.ToString();

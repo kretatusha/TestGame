@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{71E78273-FDE4-1183-1FD0-D954A9C14746}</ProjectGuid>
+    <ProjectGuid>{5FE2C893-8ADF-46F5-4CF8-856F447E8C56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>OneSignal.UnityPackage.Editor</AssemblyName>
@@ -303,24 +303,6 @@
     </Reference>
     <Reference Include="Firebase.Messaging.Editor">
       <HintPath>Assets\Firebase\Editor\Firebase.Messaging.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Analytics">
-      <HintPath>Assets\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.App">
-      <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Messaging">
-      <HintPath>Assets\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Platform">
-      <HintPath>Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.TaskExtension">
-      <HintPath>Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.MiniJson">
-      <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.14.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -703,27 +685,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="OneSignal.Core.Editor.csproj">
-      <Project>{2F22264B-B8FD-2776-7524-BBF6AB3FA2A4}</Project>
+      <Project>{500E2E2F-6DF6-AC8F-F448-657BB17B5780}</Project>
       <Name>OneSignal.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="OneSignal.Core.csproj">
-      <Project>{51230A0A-CBA3-5018-338B-3C8ED1C7EBAD}</Project>
+      <Project>{3B6952B8-5AE2-636D-6DEE-044266C0805F}</Project>
       <Name>OneSignal.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{7350020C-9293-09DD-9A6E-FEEBF9CB8094}</Project>
+      <Project>{78827C6D-3EFC-3160-1402-E6389CFFF75A}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{C873BB26-1554-2678-D343-312290E6C39A}</Project>
+      <Project>{D6CFD5F3-74C5-877E-5454-FF045FFF24BB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{B8FA5231-80A0-DF9B-B26C-04EB7BBB1B5F}</Project>
+      <Project>{33F478D0-CA39-A7A1-2D15-6C43723AFEB6}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{6946CDDB-7F17-9F42-AB69-1AED88C34151}</Project>
+      <Project>{E696AD3D-166A-8B2D-122C-AF70AFD0BD92}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

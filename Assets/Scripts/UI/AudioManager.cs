@@ -2,36 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
+    public AudioMixer audioMixer;
+    public float masterValue;
 
-    [SerializeField]
-    private AudioMixer audioMixer;
-
-    public static AudioManager instance;
-
-    void Awake()
-    {
-        if (AudioManager.instance == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            AudioManager.instance = this;
-        }
-        else
-            Destroy(gameObject);
-    }
     void Start()
     {
-        float music = PlayerPrefs.GetFloat("Volume", 0f);
-        AdjustMusicVolume(music);
+        masterValue = PlayerPrefs.GetFloat("Volume");
+        audioMixer.SetFloat("Volume",masterValue);
     }
 
-    public void AdjustMusicVolume(float volume)
+    public void MasterVolume(float volume)
     {
         audioMixer.SetFloat("Volume", volume);
         PlayerPrefs.SetFloat("Volume", volume);
         PlayerPrefs.Save();
     }
-
 }
