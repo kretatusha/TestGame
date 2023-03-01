@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - AudioManager
     - DestroyOutOfBounds
     - DetectCollisions
+    - FireBaseSetup
     - MainMenu
     - MoveForward
     - PauseMenu
@@ -87,37 +88,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11442}
+      Script: {instanceID: 11478}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11724}
+      Script: {instanceID: 11764}
     - Class: 114
-      Script: {instanceID: 11804}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12170}
+      Script: {instanceID: 12218}
     - Class: 114
-      Script: {instanceID: 12282}
+      Script: {instanceID: 12330}
     - Class: 114
-      Script: {instanceID: 12496}
+      Script: {instanceID: 12546}
     - Class: 114
-      Script: {instanceID: 12646}
+      Script: {instanceID: 12698}
     - Class: 114
-      Script: {instanceID: 12926}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 13272}
+      Script: {instanceID: 13334}
     - Class: 114
-      Script: {instanceID: 13548}
+      Script: {instanceID: 13610}
     - Class: 114
-      Script: {instanceID: 13638}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 13770}
+      Script: {instanceID: 13834}
     - Class: 114
-      Script: {instanceID: 13774}
+      Script: {instanceID: 13838}
     - Class: 114
-      Script: {instanceID: 13900}
+      Script: {instanceID: 13966}
     - Class: 114
-      Script: {instanceID: 14172}
+      Script: {instanceID: 14246}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -173,6 +174,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -184,49 +187,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11442}
+      Script: {instanceID: 11478}
     - Class: 114
-      Script: {instanceID: 11724}
+      Script: {instanceID: 11764}
     - Class: 114
-      Script: {instanceID: 12170}
+      Script: {instanceID: 12218}
     - Class: 114
-      Script: {instanceID: 12282}
+      Script: {instanceID: 12330}
     - Class: 114
-      Script: {instanceID: 12332}
+      Script: {instanceID: 12380}
     - Class: 114
-      Script: {instanceID: 12480}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12648}
+      Script: {instanceID: 12700}
     - Class: 114
-      Script: {instanceID: 12926}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 13272}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 13290}
+      Script: {instanceID: 13334}
     - Class: 114
-      Script: {instanceID: 13360}
+      Script: {instanceID: 13352}
     - Class: 114
-      Script: {instanceID: 13548}
+      Script: {instanceID: 13422}
     - Class: 114
-      Script: {instanceID: 13638}
+      Script: {instanceID: 13610}
     - Class: 114
-      Script: {instanceID: 13774}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13838}
     - Class: 114
-      Script: {instanceID: 13890}
+      Script: {instanceID: 13942}
     - Class: 114
-      Script: {instanceID: 14004}
+      Script: {instanceID: 13956}
     - Class: 114
-      Script: {instanceID: 14038}
+      Script: {instanceID: 14072}
     - Class: 114
-      Script: {instanceID: 14172}
+      Script: {instanceID: 14108}
     - Class: 114
-      Script: {instanceID: 14220}
+      Script: {instanceID: 14246}
     - Class: 114
-      Script: {instanceID: 16114}
+      Script: {instanceID: 14294}
     - Class: 114
-      Script: {instanceID: 16118}
+      Script: {instanceID: 14876}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -392,6 +395,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Firebase.Platform.dll
+    namespaceName: Firebase.Platform
+    className: FirebaseMonoBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -510,6 +519,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireBaseSetup
   - hash:
       serializedVersion: 2
       Hash: 8e9f41d18f4a469963c97e5716154479
