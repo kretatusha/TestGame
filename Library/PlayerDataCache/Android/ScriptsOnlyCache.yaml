@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - AudioManager
     - DestroyOutOfBounds
     - DetectCollisions
-    - FireBaseSettings
     - MainMenu
     - MoveForward
     - PauseMenu
@@ -88,37 +87,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11478}
+      Script: {instanceID: 11442}
     - Class: 114
-      Script: {instanceID: 11606}
+      Script: {instanceID: 11568}
     - Class: 114
-      Script: {instanceID: 11764}
+      Script: {instanceID: 11724}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 12332}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12548}
+      Script: {instanceID: 12496}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 12982}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 13334}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 13610}
+      Script: {instanceID: 13548}
     - Class: 114
-      Script: {instanceID: 13700}
+      Script: {instanceID: 13638}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13770}
     - Class: 114
-      Script: {instanceID: 13838}
+      Script: {instanceID: 13774}
     - Class: 114
-      Script: {instanceID: 13966}
+      Script: {instanceID: 13900}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 14172}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -174,8 +173,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -187,49 +184,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11478}
+      Script: {instanceID: 11442}
     - Class: 114
-      Script: {instanceID: 11764}
+      Script: {instanceID: 11724}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 12282}
     - Class: 114
       Script: {instanceID: 12332}
     - Class: 114
-      Script: {instanceID: 12382}
+      Script: {instanceID: 12480}
     - Class: 114
-      Script: {instanceID: 12532}
+      Script: {instanceID: 12648}
     - Class: 114
-      Script: {instanceID: 12702}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 12982}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 13334}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13360}
     - Class: 114
-      Script: {instanceID: 13422}
+      Script: {instanceID: 13548}
     - Class: 114
-      Script: {instanceID: 13610}
+      Script: {instanceID: 13638}
     - Class: 114
-      Script: {instanceID: 13700}
+      Script: {instanceID: 13774}
     - Class: 114
-      Script: {instanceID: 13838}
+      Script: {instanceID: 13876}
     - Class: 114
-      Script: {instanceID: 13942}
+      Script: {instanceID: 13890}
     - Class: 114
-      Script: {instanceID: 13956}
+      Script: {instanceID: 14004}
     - Class: 114
-      Script: {instanceID: 14072}
+      Script: {instanceID: 14038}
     - Class: 114
-      Script: {instanceID: 14108}
+      Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 14220}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 16114}
     - Class: 114
-      Script: {instanceID: 16694}
+      Script: {instanceID: 16118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -395,18 +392,6 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FireBaseSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Firebase.Platform.dll
-    namespaceName: Firebase.Platform
-    className: FirebaseMonoBehaviour
-  - hash:
-      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -521,7 +506,7 @@ ScriptsOnlyBuild:
     className: SpawnManager
   - hash:
       serializedVersion: 2
-      Hash: d835e37be8caf473a0d64dc941f2a2a8
+      Hash: fbf9b36b25eb51da44a8829671440c5b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioManager
@@ -677,7 +662,7 @@ ScriptsOnlyBuild:
     className: VolumeSlider
   - hash:
       serializedVersion: 2
-      Hash: 8ff8fe90d8e9639c83956eac82bcb6e6
+      Hash: b99f0d9c895b53dd924ed9ef145b2e70
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenu
@@ -787,4 +772,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/Stas/Desktop/Create with code/Prototype 2/Prototype 2.apk
+  playerPath: C:/Users/Stas/Desktop/Create with code/TestGame/TestGame/Prototype
+    2.apk
